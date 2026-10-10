@@ -1,5 +1,5 @@
 {
-  "description": "40 authored diagnostic requests, absent verbatim from task training; not an independent benchmark",
+  "description": "40 authored development diagnostic requests, absent verbatim from task training but reused during development; not an independent benchmark",
   "training_examples": 80,
   "training_labels": 12,
   "requests": 40,
@@ -169,7 +169,7 @@
       "expected": "profile",
       "predicted": "profile",
       "correct": true,
-      "score": 0.435,
+      "score": 0.4375,
       "actions": [
         {
           "type": "navigate",
@@ -185,7 +185,7 @@
       "expected": "profile",
       "predicted": "profile",
       "correct": true,
-      "score": 0.6114,
+      "score": 0.6134,
       "actions": [
         {
           "type": "navigate",
@@ -217,7 +217,7 @@
       "expected": "fees",
       "predicted": "fees",
       "correct": true,
-      "score": 0.5908,
+      "score": 0.6331,
       "actions": [
         {
           "type": "navigate",
@@ -249,7 +249,7 @@
       "expected": "fees",
       "predicted": "fees",
       "correct": true,
-      "score": 0.7409,
+      "score": 0.7382,
       "actions": [
         {
           "type": "navigate",
@@ -265,7 +265,7 @@
       "expected": "history",
       "predicted": "history",
       "correct": true,
-      "score": 0.6707,
+      "score": 0.689,
       "actions": [
         {
           "type": "navigate",
@@ -281,7 +281,7 @@
       "expected": "history",
       "predicted": "history",
       "correct": true,
-      "score": 0.3235,
+      "score": 0.3282,
       "actions": [
         {
           "type": "navigate",
@@ -313,7 +313,7 @@
       "expected": "dashboard",
       "predicted": "dashboard",
       "correct": true,
-      "score": 0.6104,
+      "score": 0.6136,
       "actions": [
         {
           "type": "navigate",
@@ -329,7 +329,7 @@
       "expected": "dashboard",
       "predicted": "dashboard",
       "correct": true,
-      "score": 0.4925,
+      "score": 0.4977,
       "actions": [
         {
           "type": "navigate",
@@ -345,7 +345,7 @@
       "expected": "dashboard",
       "predicted": "dashboard",
       "correct": true,
-      "score": 0.6172,
+      "score": 0.6115,
       "actions": [
         {
           "type": "navigate",
@@ -361,7 +361,7 @@
       "expected": "pay",
       "predicted": "pay",
       "correct": true,
-      "score": 0.5909,
+      "score": 0.589,
       "actions": [
         {
           "type": "navigate",
@@ -383,7 +383,7 @@
       "expected": "pay",
       "predicted": "pay",
       "correct": true,
-      "score": 0.4548,
+      "score": 0.4512,
       "actions": [
         {
           "type": "navigate",
@@ -405,7 +405,7 @@
       "expected": "pay",
       "predicted": "pay",
       "correct": true,
-      "score": 0.3735,
+      "score": 0.3215,
       "actions": [
         {
           "type": "navigate",
@@ -443,7 +443,7 @@
       "expected": "receipt",
       "predicted": "receipt",
       "correct": true,
-      "score": 0.6189,
+      "score": 0.6168,
       "actions": [
         {
           "type": "navigate",
@@ -475,7 +475,7 @@
       "expected": "allotment",
       "predicted": "allotment",
       "correct": true,
-      "score": 0.7673,
+      "score": 0.77,
       "actions": [
         {
           "type": "navigate",
@@ -491,7 +491,7 @@
       "expected": "allotment",
       "predicted": "allotment",
       "correct": true,
-      "score": 0.6298,
+      "score": 0.6257,
       "actions": [
         {
           "type": "navigate",
@@ -507,7 +507,7 @@
       "expected": "students",
       "predicted": "students",
       "correct": true,
-      "score": 0.7415,
+      "score": 0.7437,
       "actions": [
         {
           "type": "navigate",
@@ -539,7 +539,7 @@
       "expected": "ledger",
       "predicted": "ledger",
       "correct": true,
-      "score": 0.5859,
+      "score": 0.5914,
       "actions": [
         {
           "type": "navigate",
@@ -571,7 +571,7 @@
       "expected": "policies",
       "predicted": "policies",
       "correct": true,
-      "score": 0.7279,
+      "score": 0.7241,
       "actions": [
         {
           "type": "navigate",
@@ -603,7 +603,7 @@
       "expected": "audit",
       "predicted": "audit",
       "correct": true,
-      "score": 0.7534,
+      "score": 0.7519,
       "actions": [
         {
           "type": "navigate",
@@ -687,7 +687,7 @@
       "correct": true,
       "score": 1.0,
       "actions": [],
-      "answer": "SYED SUFYAN M\nRegister number: 2403957610421048\nDepartment: CSE\nSemester: 7"
+      "answer": "SYED SUFYAN\nRegister number: 2403957610421048\nDepartment: CSE\nSemester: 7"
     },
     {
       "role": "student",

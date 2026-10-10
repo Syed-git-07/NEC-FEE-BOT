@@ -1,0 +1,150 @@
+{
+  "pages": 26,
+  "all_page_borders": true,
+  "name": "SYED SUFYAN",
+  "roll": "2403957610421048",
+  "chapter_pages": [
+    [
+      1,
+      "INTRODUCTION",
+      3
+    ],
+    [
+      1,
+      "PROBLEM STATEMENT",
+      5
+    ],
+    [
+      1,
+      "MODULE DESCRIPTION",
+      6
+    ],
+    [
+      1,
+      "ARCHITECTURE DIAGRAM",
+      9
+    ],
+    [
+      1,
+      "CODING & IMPLEMENTATION",
+      12
+    ],
+    [
+      1,
+      "OUTPUT SCREENSHOTS",
+      20
+    ],
+    [
+      1,
+      "CONCLUSION",
+      24
+    ]
+  ],
+  "layout": [
+    {
+      "page": 3,
+      "bottom_y": 134.8
+    },
+    {
+      "page": 4,
+      "bottom_y": 161.92
+    },
+    {
+      "page": 5,
+      "bottom_y": 235.48
+    },
+    {
+      "page": 6,
+      "bottom_y": 219.92
+    },
+    {
+      "page": 7,
+      "bottom_y": 157.54
+    },
+    {
+      "page": 8,
+      "bottom_y": 160.96
+    },
+    {
+      "page": 9,
+      "bottom_y": 147.76
+    },
+    {
+      "page": 10,
+      "bottom_y": 173.16
+    },
+    {
+      "page": 11,
+      "bottom_y": 168.48
+    },
+    {
+      "page": 12,
+      "bottom_y": 65.08
+    },
+    {
+      "page": 13,
+      "bottom_y": 256.76
+    },
+    {
+      "page": 14,
+      "bottom_y": 217.2
+    },
+    {
+      "page": 15,
+      "bottom_y": 127.4
+    },
+    {
+      "page": 16,
+      "bottom_y": 148.28
+    },
+    {
+      "page": 17,
+      "bottom_y": 194.8
+    },
+    {
+      "page": 18,
+      "bottom_y": 161.8
+    },
+    {
+      "page": 19,
+      "bottom_y": 231.28
+    },
+    {
+      "page": 20,
+      "bottom_y": 157.68
+    },
+    {
+      "page": 21,
+      "bottom_y": 183.92
+    },
+    {
+      "page": 22,
+      "bottom_y": 183.92
+    },
+    {
+      "page": 23,
+      "bottom_y": 152.38
+    },
+    {
+      "page": 24,
+      "bottom_y": 108.36
+    },
+    {
+      "page": 25,
+      "bottom_y": 162.92
+    },
+    {
+      "page": 26,
+      "bottom_y": 622.56
+    }
+  ],
+  "code_screenshot_pages": [
+    17,
+    18
+  ],
+  "output_screenshot_pages": [
+    20,
+    21,
+    22
+  ]
+}

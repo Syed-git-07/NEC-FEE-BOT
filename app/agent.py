@@ -14,7 +14,7 @@ EXAMPLES = {
  'history': ['open transaction history', 'take me to payment history', 'go to transactions page', 'show my payment history', 'view previous payments', 'navigate to history'],
  'profile': ['open my profile', 'take me to my account details', 'go to profile page', 'show my student profile', 'navigate to my personal details', 'view profile screen'],
  'dashboard': ['open dashboard', 'take me home', 'go to overview', 'navigate to account overview', 'back to dashboard', 'show the home page'],
- 'pay': ['help me pay tuition', 'pay my examination fee', 'prepare payment for library', 'select transport fees for payment', 'pay all my fees now', 'guide me through fee payment', 'I want to pay tuition', 'settle my unpaid fees'],
+ 'pay': ['help me pay tuition', 'pay my examination fee', 'prepare payment for library', 'select transport fees for payment', 'pay all my fees now', 'open payment page', 'I want to pay tuition', 'take me to payment page'],
  'receipt': ['download my receipt', 'get my latest receipt', 'find my payment invoice', 'open completed payment receipt', 'help me download payment acknowledgement', 'download proof of payment'],
  'allotment': ['open fee allotment', 'take me to assign a fee', 'go to fee allocation form', 'help me assign fees', 'navigate to allotment', 'allocate a new fee'],
  'students': ['open student directory', 'take me to students', 'go to add student page', 'help me add a student', 'show student list', 'navigate to student management'],
@@ -97,8 +97,10 @@ def handle(user,question,stored,fees,payments):
     task,score=prediction
     if task=='pay':
         if user['role']!='student':return result('Fee payments are available in a student account.'),state
-        category=nlp.category(question)
-        pending=[f for f in fees if f['status']=='pending' and (not category or category in f['head'].lower())]
+        categories=[name for name in ['tuition','examination','hostel','transport','library']
+                    if name in q or (name=='examination' and re.search(r'\bexam\b',q))]
+        category=categories[0] if len(categories)==1 else ''
+        pending=[f for f in fees if f['status']=='pending' and (not categories or any(name in f['head'].lower() for name in categories))]
         if not pending:
             return result('There are no pending '+(category+' ' if category else '')+'fees to select.',[navigate('fees')],score=score),state
         ids=[f['id'] for f in pending]

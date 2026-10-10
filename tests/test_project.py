@@ -116,6 +116,11 @@ class ProjectTests(unittest.TestCase):
         result=s.chat(self.other,self.other_token,'Help me pay tuition')
         self.assertFalse(any(a['type']=='select_fees' for a in result['actions']))
 
+    def test_agent_selects_multiple_requested_categories(self):
+        result=s.chat(self.student,self.student_token,'Help me pay library and tuition')
+        ids=result['actions'][1]['fee_ids']
+        self.assertEqual({f['head'] for f in s.dashboard(self.student)['fees'] if f['id'] in ids},{'Library','Tuition'})
+
     def test_agent_other_register_number_is_not_a_tool_argument(self):
         result=s.chat(self.student,self.student_token,'Help me pay tuition for 2403957610421043')
         self.assertEqual(result['actions'],[])
