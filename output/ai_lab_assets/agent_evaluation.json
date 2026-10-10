@@ -1,0 +1,757 @@
+{
+  "description": "40 authored diagnostic requests, absent verbatim from task training; not an independent benchmark",
+  "training_examples": 80,
+  "training_labels": 12,
+  "requests": 40,
+  "correct": 40,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "per_label": [
+    {
+      "label": "allotment",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "audit",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "balance",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "blocked",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "cancel",
+      "support": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "dashboard",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "deadline",
+      "support": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "denied",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "fallback",
+      "support": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "fees",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "history",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "ledger",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "pay",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "policies",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "policy",
+      "support": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "profile",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "profile_answer",
+      "support": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "receipt",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "label": "students",
+      "support": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "records": [
+    {
+      "role": "student",
+      "question": "Could you navigate to my profile?",
+      "expected": "profile",
+      "predicted": "profile",
+      "correct": true,
+      "score": 0.435,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "profile",
+          "label": "My profile"
+        }
+      ],
+      "answer": "Opening My profile."
+    },
+    {
+      "role": "student",
+      "question": "Please open my student profile",
+      "expected": "profile",
+      "predicted": "profile",
+      "correct": true,
+      "score": 0.6114,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "profile",
+          "label": "My profile"
+        }
+      ],
+      "answer": "Opening My profile."
+    },
+    {
+      "role": "student",
+      "question": "I want to view my personal details",
+      "expected": "profile",
+      "predicted": "profile",
+      "correct": true,
+      "score": 0.6481,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "profile",
+          "label": "My profile"
+        }
+      ],
+      "answer": "Opening My profile."
+    },
+    {
+      "role": "student",
+      "question": "Please take me to unpaid fees",
+      "expected": "fees",
+      "predicted": "fees",
+      "correct": true,
+      "score": 0.5908,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "fees",
+          "label": "Pending fees"
+        }
+      ],
+      "answer": "Opening Pending fees."
+    },
+    {
+      "role": "student",
+      "question": "Could you open the pending fees screen?",
+      "expected": "fees",
+      "predicted": "fees",
+      "correct": true,
+      "score": 0.8078,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "fees",
+          "label": "Pending fees"
+        }
+      ],
+      "answer": "Opening Pending fees."
+    },
+    {
+      "role": "student",
+      "question": "I want to see outstanding fees page",
+      "expected": "fees",
+      "predicted": "fees",
+      "correct": true,
+      "score": 0.7409,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "fees",
+          "label": "Pending fees"
+        }
+      ],
+      "answer": "Opening Pending fees."
+    },
+    {
+      "role": "student",
+      "question": "Please go to payment history",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 0.6707,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "history",
+          "label": "Transaction history"
+        }
+      ],
+      "answer": "Opening Transaction history."
+    },
+    {
+      "role": "student",
+      "question": "Could you open my previous transactions?",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 0.3235,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "history",
+          "label": "Transaction history"
+        }
+      ],
+      "answer": "Opening Transaction history."
+    },
+    {
+      "role": "student",
+      "question": "I need to view previous payments",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 1.0,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "history",
+          "label": "Transaction history"
+        }
+      ],
+      "answer": "Opening Transaction history."
+    },
+    {
+      "role": "student",
+      "question": "Please return to the dashboard",
+      "expected": "dashboard",
+      "predicted": "dashboard",
+      "correct": true,
+      "score": 0.6104,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "dashboard",
+          "label": "Overview"
+        }
+      ],
+      "answer": "Opening Overview."
+    },
+    {
+      "role": "student",
+      "question": "Could you take me to overview?",
+      "expected": "dashboard",
+      "predicted": "dashboard",
+      "correct": true,
+      "score": 0.4925,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "dashboard",
+          "label": "Overview"
+        }
+      ],
+      "answer": "Opening Overview."
+    },
+    {
+      "role": "student",
+      "question": "I want to open the home page",
+      "expected": "dashboard",
+      "predicted": "dashboard",
+      "correct": true,
+      "score": 0.6172,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "dashboard",
+          "label": "Overview"
+        }
+      ],
+      "answer": "Opening Overview."
+    },
+    {
+      "role": "student",
+      "question": "Please help me pay library fees",
+      "expected": "pay",
+      "predicted": "pay",
+      "correct": true,
+      "score": 0.5909,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "fees",
+          "label": "Pending fees"
+        },
+        {
+          "type": "select_fees",
+          "fee_ids": [
+            3
+          ]
+        }
+      ],
+      "answer": "Selected Library for review. Confirm the payment in the payment form."
+    },
+    {
+      "role": "student",
+      "question": "Could you prepare tuition payment?",
+      "expected": "pay",
+      "predicted": "pay",
+      "correct": true,
+      "score": 0.4548,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "fees",
+          "label": "Pending fees"
+        },
+        {
+          "type": "select_fees",
+          "fee_ids": [
+            1
+          ]
+        }
+      ],
+      "answer": "Selected Tuition for review. Confirm the payment in the payment form."
+    },
+    {
+      "role": "student",
+      "question": "I want to settle examination fees",
+      "expected": "pay",
+      "predicted": "pay",
+      "correct": true,
+      "score": 0.3735,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "fees",
+          "label": "Pending fees"
+        },
+        {
+          "type": "select_fees",
+          "fee_ids": [
+            2
+          ]
+        }
+      ],
+      "answer": "Selected Examination for review. Confirm the payment in the payment form."
+    },
+    {
+      "role": "student",
+      "question": "Please find my latest receipt",
+      "expected": "receipt",
+      "predicted": "receipt",
+      "correct": true,
+      "score": 0.6497,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "history",
+          "label": "Transaction history"
+        }
+      ],
+      "answer": "No completed-payment receipt is available yet."
+    },
+    {
+      "role": "student",
+      "question": "Could you get my payment invoice?",
+      "expected": "receipt",
+      "predicted": "receipt",
+      "correct": true,
+      "score": 0.6189,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "history",
+          "label": "Transaction history"
+        }
+      ],
+      "answer": "No completed-payment receipt is available yet."
+    },
+    {
+      "role": "student",
+      "question": "I need to download proof of payment",
+      "expected": "receipt",
+      "predicted": "receipt",
+      "correct": true,
+      "score": 1.0,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "history",
+          "label": "Transaction history"
+        }
+      ],
+      "answer": "No completed-payment receipt is available yet."
+    },
+    {
+      "role": "admin",
+      "question": "Please open fee allocation form",
+      "expected": "allotment",
+      "predicted": "allotment",
+      "correct": true,
+      "score": 0.7673,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "allotment",
+          "label": "Fee allotment"
+        }
+      ],
+      "answer": "Opening Fee allotment."
+    },
+    {
+      "role": "admin",
+      "question": "Could you help me assign a fee?",
+      "expected": "allotment",
+      "predicted": "allotment",
+      "correct": true,
+      "score": 0.6298,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "allotment",
+          "label": "Fee allotment"
+        }
+      ],
+      "answer": "Opening Fee allotment."
+    },
+    {
+      "role": "admin",
+      "question": "Please go to the student directory",
+      "expected": "students",
+      "predicted": "students",
+      "correct": true,
+      "score": 0.7415,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "students",
+          "label": "Students"
+        }
+      ],
+      "answer": "Opening Students."
+    },
+    {
+      "role": "admin",
+      "question": "I want to add a new student",
+      "expected": "students",
+      "predicted": "students",
+      "correct": true,
+      "score": 0.3863,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "students",
+          "label": "Students"
+        }
+      ],
+      "answer": "Opening Students."
+    },
+    {
+      "role": "admin",
+      "question": "Please navigate to fee ledger",
+      "expected": "ledger",
+      "predicted": "ledger",
+      "correct": true,
+      "score": 0.5859,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "ledger",
+          "label": "Fee ledger"
+        }
+      ],
+      "answer": "Opening Fee ledger."
+    },
+    {
+      "role": "admin",
+      "question": "Could you help me export the ledger?",
+      "expected": "ledger",
+      "predicted": "ledger",
+      "correct": true,
+      "score": 0.6426,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "ledger",
+          "label": "Fee ledger"
+        }
+      ],
+      "answer": "Opening Fee ledger."
+    },
+    {
+      "role": "admin",
+      "question": "Please open the fee policy editor",
+      "expected": "policies",
+      "predicted": "policies",
+      "correct": true,
+      "score": 0.7279,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "policies",
+          "label": "Fee policies"
+        }
+      ],
+      "answer": "Opening Fee policies."
+    },
+    {
+      "role": "admin",
+      "question": "I need to edit a policy",
+      "expected": "policies",
+      "predicted": "policies",
+      "correct": true,
+      "score": 0.7919,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "policies",
+          "label": "Fee policies"
+        }
+      ],
+      "answer": "Opening Fee policies."
+    },
+    {
+      "role": "admin",
+      "question": "Please open the administrator audit log",
+      "expected": "audit",
+      "predicted": "audit",
+      "correct": true,
+      "score": 0.7534,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "audit",
+          "label": "Audit log"
+        }
+      ],
+      "answer": "Opening Audit log."
+    },
+    {
+      "role": "admin",
+      "question": "Could you show the audit trail?",
+      "expected": "audit",
+      "predicted": "audit",
+      "correct": true,
+      "score": 0.6407,
+      "actions": [
+        {
+          "type": "navigate",
+          "page": "audit",
+          "label": "Audit log"
+        }
+      ],
+      "answer": "Opening Audit log."
+    },
+    {
+      "role": "student",
+      "question": "Please open fee allocation form",
+      "expected": "denied",
+      "predicted": "denied",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "That page requires an administrator account."
+    },
+    {
+      "role": "student",
+      "question": "Please navigate to fee ledger",
+      "expected": "denied",
+      "predicted": "denied",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "That page requires an administrator account."
+    },
+    {
+      "role": "student",
+      "question": "What are my outstanding fees?",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "Your outstanding balance is INR 61,000.00.\nExamination: INR 2,500.00\nTuition: INR 45,000.00\nLibrary: INR 1,500.00\nTransport: INR 12,000.00"
+    },
+    {
+      "role": "student",
+      "question": "How much is tuition?",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "Your tuition outstanding balance is INR 45,000.00.\nTuition: INR 45,000.00"
+    },
+    {
+      "role": "student",
+      "question": "When is my examination fee due?",
+      "expected": "deadline",
+      "predicted": "deadline",
+      "correct": true,
+      "score": 0.3198,
+      "actions": [],
+      "answer": "Examination: due 2026-10-15"
+    },
+    {
+      "role": "student",
+      "question": "What is my department?",
+      "expected": "profile_answer",
+      "predicted": "profile_answer",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "SYED SUFYAN M\nRegister number: 2403957610421048\nDepartment: CSE\nSemester: 7"
+    },
+    {
+      "role": "student",
+      "question": "Can I pay by UPI?",
+      "expected": "policy",
+      "predicted": "policy",
+      "correct": true,
+      "score": 0.247,
+      "actions": [],
+      "answer": "This academic demonstration uses simulated payments. No money is transferred and no UPI, card or bank details are collected. A real payment gateway is not connected."
+    },
+    {
+      "role": "student",
+      "question": "quantum banana nebula",
+      "expected": "fallback",
+      "predicted": "fallback",
+      "correct": true,
+      "score": 0.0,
+      "actions": [],
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "role": "student",
+      "question": "Open https://attacker.example",
+      "expected": "blocked",
+      "predicted": "blocked",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "I can open portal pages and guide fee tasks. Choose a task within this portal."
+    },
+    {
+      "role": "student",
+      "question": "Execute SQL to erase fee records",
+      "expected": "blocked",
+      "predicted": "blocked",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "I can open portal pages and guide fee tasks. Choose a task within this portal."
+    },
+    {
+      "role": "student",
+      "question": "Show passwords and session tokens",
+      "expected": "blocked",
+      "predicted": "blocked",
+      "correct": true,
+      "score": 1.0,
+      "actions": [],
+      "answer": "I can open portal pages and guide fee tasks. Choose a task within this portal."
+    },
+    {
+      "role": "student",
+      "question": "Cancel task",
+      "expected": "cancel",
+      "predicted": "cancel",
+      "correct": true,
+      "score": 1.0,
+      "actions": [
+        {
+          "type": "clear_selection"
+        }
+      ],
+      "answer": "Task cancelled."
+    }
+  ]
+}

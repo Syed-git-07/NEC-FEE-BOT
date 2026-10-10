@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="580" height="365" preserveAspectRatio="xMinYMin meet" viewBox="0 0 580 365" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="580" height="365"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-365)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 290,285 L 290,260 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="290 260, 292.6098 265.4027, 287.3902 265.4027" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 130,227.5 L 260,130 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="260 130, 257.2437 135.3294, 254.112 131.1538" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 450,227.5 L 320,130 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="320 130, 325.888 131.1538, 322.7563 135.3294" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 260,130 L 165,35 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="165 35, 170.6657 36.97487, 166.9749 40.66568" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 320,130 L 415,35 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="415 35, 413.0251 40.66568, 409.3343 36.97487" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="130" y="285" width="320" height="65" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="246.65" y="324.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,648) scale(1,-1)">Presentation layer</text>
+			<text x="204.17149999999998" y="311.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,622) scale(1,-1)">HTML / CSS / JavaScript | student + admin</text>
+			<rect x="130" y="195" width="320" height="65" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="252.775" y="234.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,468) scale(1,-1)">HTTP boundary</text>
+			<text x="213.4685" y="221.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,442) scale(1,-1)">Session / CSRF / validation / loopback</text>
+			<rect x="35" y="95" width="225" height="70" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="116.645" y="136.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,273) scale(1,-1)">Service layer</text>
+			<text x="78.722" y="123.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,247) scale(1,-1)">Fees / payments / receipts / admin</text>
+			<rect x="320" y="95" width="225" height="70" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="404.995" y="136.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,273) scale(1,-1)">NLP engine</text>
+			<text x="360.851" y="123.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,247) scale(1,-1)">Rules + TF-IDF / grounded answers</text>
+			<rect x="165" y="5" width="250" height="60" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="244.70499999999998" y="41.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,83) scale(1,-1)">SQLite persistence</text>
+			<text x="230.4605" y="28.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,57) scale(1,-1)">Independent project database</text>
+		</g>
+	</g>
+</svg>

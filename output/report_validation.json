@@ -1,0 +1,215 @@
+{
+  "pages": 30,
+  "chapter_heading_pages": [
+    {
+      "physical_page": 4,
+      "chapter": 1
+    },
+    {
+      "physical_page": 6,
+      "chapter": 2
+    },
+    {
+      "physical_page": 7,
+      "chapter": 3
+    },
+    {
+      "physical_page": 10,
+      "chapter": 4
+    },
+    {
+      "physical_page": 13,
+      "chapter": 5
+    },
+    {
+      "physical_page": 18,
+      "chapter": 6
+    },
+    {
+      "physical_page": 19,
+      "chapter": 7
+    },
+    {
+      "physical_page": 21,
+      "chapter": 8
+    },
+    {
+      "physical_page": 24,
+      "chapter": 9
+    },
+    {
+      "physical_page": 28,
+      "chapter": 10
+    }
+  ],
+  "page_layout": [
+    {
+      "page": 4,
+      "title": "1.1 Introduction and problem statement",
+      "body_font": 12,
+      "bottom_y": 274.89
+    },
+    {
+      "page": 5,
+      "title": "1.2 Contribution, scope and motivation",
+      "body_font": 12,
+      "bottom_y": 296.69
+    },
+    {
+      "page": 6,
+      "title": "2.1 NLP and chatbot objectives",
+      "body_font": 12,
+      "bottom_y": 255.29
+    },
+    {
+      "page": 7,
+      "title": "3.1 Conversational system and supported intents",
+      "body_font": 12,
+      "bottom_y": 234.29
+    },
+    {
+      "page": 8,
+      "title": "3.2 Knowledge corpus and text processing",
+      "body_font": 12,
+      "bottom_y": 307.69
+    },
+    {
+      "page": 9,
+      "title": "3.3 Context handling and grounded responses",
+      "body_font": 12,
+      "bottom_y": 213.49
+    },
+    {
+      "page": 10,
+      "title": "4.1 NLP pipeline architecture",
+      "body_font": 12,
+      "bottom_y": 120.69
+    },
+    {
+      "page": 11,
+      "title": "4.2 Policy retrieval and answer grounding",
+      "body_font": 12,
+      "bottom_y": 209.09
+    },
+    {
+      "page": 12,
+      "title": "4.3 Dialogue context and supporting services",
+      "body_font": 12,
+      "bottom_y": 267.69
+    },
+    {
+      "page": 13,
+      "title": "5.1 Text normalization and feature construction",
+      "body_font": 12,
+      "bottom_y": 276.09
+    },
+    {
+      "page": 14,
+      "title": "5.2 TF-IDF and cosine similarity",
+      "body_font": 12,
+      "bottom_y": 245.69
+    },
+    {
+      "page": 15,
+      "title": "5.3 Intent routing and context algorithm",
+      "body_font": 12,
+      "bottom_y": 317.49
+    },
+    {
+      "page": 16,
+      "title": "5.4 Worked TF-IDF retrieval example",
+      "body_font": 12,
+      "bottom_y": 290.69
+    },
+    {
+      "page": 17,
+      "title": "5.5 Decision thresholds and evaluation formulations",
+      "body_font": 12,
+      "bottom_y": 333.49
+    },
+    {
+      "page": 18,
+      "title": "6.1 NLP tools and supporting technology",
+      "body_font": 12,
+      "bottom_y": 140.29
+    },
+    {
+      "page": 19,
+      "title": "7.1 Account and conversation data model",
+      "body_font": 12,
+      "bottom_y": 177.29
+    },
+    {
+      "page": 20,
+      "title": "7.2 Policy knowledge base and conversation records",
+      "body_font": 12,
+      "bottom_y": 208.29
+    },
+    {
+      "page": 21,
+      "title": "8.1 NLP and chatbot implementation walkthrough",
+      "body_font": 12,
+      "bottom_y": 275.49
+    },
+    {
+      "page": 22,
+      "title": "8.2 Diagnostic NLP evaluation and results",
+      "body_font": 12,
+      "bottom_y": 217.49
+    },
+    {
+      "page": 23,
+      "title": "8.3 Error analysis, grounding checks and limitations",
+      "body_font": 12,
+      "bottom_y": 192.89
+    },
+    {
+      "page": 24,
+      "title": "9.1 Fee portal context for conversational assistance",
+      "body_font": 12,
+      "bottom_y": 200.69
+    },
+    {
+      "page": 25,
+      "title": "9.2 NLP chatbot: live balance retrieval",
+      "body_font": 12,
+      "bottom_y": 178.29
+    },
+    {
+      "page": 26,
+      "title": "9.3 NLP chatbot: deadline and policy responses",
+      "body_font": 12,
+      "bottom_y": 226.29
+    },
+    {
+      "page": 27,
+      "title": "9.4 NLP knowledge-base maintenance",
+      "body_font": 12,
+      "bottom_y": 242.49
+    },
+    {
+      "page": 28,
+      "title": "10.1 Conclusion",
+      "body_font": 12,
+      "bottom_y": 306.69
+    },
+    {
+      "page": 29,
+      "title": "10.2 Future NLP and chatbot enhancements",
+      "body_font": 12,
+      "bottom_y": 201.49
+    },
+    {
+      "page": 30,
+      "title": "REFERENCES",
+      "body_font": 12,
+      "bottom_y": 249.89
+    }
+  ],
+  "author": "SYED SUFYAN M",
+  "register_number": "2403957610421048",
+  "nlp_diagnostics": {
+    "questions": 36,
+    "correct_routes": 30
+  }
+}

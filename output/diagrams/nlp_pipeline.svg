@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="580" height="365" preserveAspectRatio="xMinYMin meet" viewBox="0 0 580 365" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="580" height="365"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-365)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 290,300 L 290,273 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="290 273, 292.6098 278.4027, 287.3902 278.4027" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 185,245.5 L 245,155 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="245 155, 244.1898 160.945, 239.8395 158.0608" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 395,245.5 L 335,155 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="335 155, 340.1605 158.0608, 335.8102 160.945" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 245,155 L 165,52.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="165 52.5, 170.3815 55.15329, 166.2668 58.36475" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 335,155 L 415,52.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="415 52.5, 413.7332 58.36475, 409.6185 55.15329" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="185" y="300" width="210" height="50" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="234.44" y="331.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,663) scale(1,-1)">Authenticated question</text>
+			<text x="241.607" y="318.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,637) scale(1,-1)">User + session category</text>
+			<rect x="185" y="218" width="210" height="55" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="231.655" y="252.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,504) scale(1,-1)">Validate and route intent</text>
+			<text x="237.494" y="239.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,478) scale(1,-1)">Rules / exemplar similarity</text>
+			<rect x="25" y="125" width="220" height="60" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="94.155" y="161.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,323) scale(1,-1)">Account retrieval</text>
+			<text x="72.9675" y="148.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,297) scale(1,-1)">Owned fees / dates / payments</text>
+			<rect x="335" y="125" width="220" height="60" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="409.425" y="161.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,323) scale(1,-1)">Policy retrieval</text>
+			<text x="394.2355" y="148.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,297) scale(1,-1)">TF-IDF cosine / threshold</text>
+			<rect x="165" y="20" width="250" height="65" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="242.49" y="59.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,118) scale(1,-1)">Grounded response</text>
+			<text x="222.221" y="46.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,92) scale(1,-1)">Answer + source + protected links</text>
+		</g>
+	</g>
+</svg>

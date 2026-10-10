@@ -1,0 +1,399 @@
+{
+  "description": "Authored diagnostic set, not an independent production benchmark",
+  "questions": 36,
+  "correct": 30,
+  "accuracy": 0.8333333333333334,
+  "macro_f1": 0.8458513708513709,
+  "per_intent": [
+    {
+      "intent": "balance",
+      "support": 6,
+      "correct": 5,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    {
+      "intent": "deadline",
+      "support": 5,
+      "correct": 4,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889
+    },
+    {
+      "intent": "fallback",
+      "support": 3,
+      "correct": 3,
+      "precision": 0.375,
+      "recall": 1.0,
+      "f1": 0.5454545454545454
+    },
+    {
+      "intent": "help",
+      "support": 3,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "intent": "history",
+      "support": 5,
+      "correct": 4,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8000000000000002
+    },
+    {
+      "intent": "policy",
+      "support": 6,
+      "correct": 5,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091
+    },
+    {
+      "intent": "profile",
+      "support": 4,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    {
+      "intent": "receipt",
+      "support": 4,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    }
+  ],
+  "records": [
+    {
+      "question": "What are my pending fees?",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Your outstanding balance is INR 61,000.00.\nExamination: INR 2,500.00\nTuition: INR 45,000.00\nLibrary: INR 1,500.00\nTransport: INR 12,000.00"
+    },
+    {
+      "question": "Show my outstanding balance",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Your outstanding balance is INR 61,000.00.\nExamination: INR 2,500.00\nTuition: INR 45,000.00\nLibrary: INR 1,500.00\nTransport: INR 12,000.00"
+    },
+    {
+      "question": "How much do I owe?",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Your outstanding balance is INR 61,000.00.\nExamination: INR 2,500.00\nTuition: INR 45,000.00\nLibrary: INR 1,500.00\nTransport: INR 12,000.00"
+    },
+    {
+      "question": "remaining amount",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 0.3271,
+      "source": "Account records",
+      "answer": "Your outstanding balance is INR 61,000.00.\nExamination: INR 2,500.00\nTuition: INR 45,000.00\nLibrary: INR 1,500.00\nTransport: INR 12,000.00"
+    },
+    {
+      "question": "amount payable",
+      "expected": "balance",
+      "predicted": "balance",
+      "correct": true,
+      "score": 0.3271,
+      "source": "Account records",
+      "answer": "Your outstanding balance is INR 61,000.00.\nExamination: INR 2,500.00\nTuition: INR 45,000.00\nLibrary: INR 1,500.00\nTransport: INR 12,000.00"
+    },
+    {
+      "question": "charges left to settle",
+      "expected": "balance",
+      "predicted": "fallback",
+      "correct": false,
+      "score": 0.1452,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "When should I pay tuition?",
+      "expected": "deadline",
+      "predicted": "deadline",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Tuition: due 2026-10-20"
+    },
+    {
+      "question": "What is the due date for examination?",
+      "expected": "deadline",
+      "predicted": "deadline",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Examination: due 2026-10-15"
+    },
+    {
+      "question": "tuition deadline",
+      "expected": "deadline",
+      "predicted": "deadline",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Tuition: due 2026-10-20"
+    },
+    {
+      "question": "last date for library fee",
+      "expected": "deadline",
+      "predicted": "deadline",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "Library: due 2026-10-25"
+    },
+    {
+      "question": "payment cutoff",
+      "expected": "deadline",
+      "predicted": "history",
+      "correct": false,
+      "score": 0.3993,
+      "source": "Account records",
+      "answer": "No payment attempts are recorded yet."
+    },
+    {
+      "question": "Show payment history",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "No payment attempts are recorded yet."
+    },
+    {
+      "question": "List transactions",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "No payment attempts are recorded yet."
+    },
+    {
+      "question": "Which fees have I already paid?",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "No payment attempts are recorded yet."
+    },
+    {
+      "question": "latest payment",
+      "expected": "history",
+      "predicted": "fallback",
+      "correct": false,
+      "score": 0.1338,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "completed payments",
+      "expected": "history",
+      "predicted": "history",
+      "correct": true,
+      "score": 0.3241,
+      "source": "Account records",
+      "answer": "No payment attempts are recorded yet."
+    },
+    {
+      "question": "Download my receipt",
+      "expected": "receipt",
+      "predicted": "receipt",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "No completed payment receipt is available."
+    },
+    {
+      "question": "payment acknowledgement",
+      "expected": "receipt",
+      "predicted": "receipt",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "No completed payment receipt is available."
+    },
+    {
+      "question": "proof of payment",
+      "expected": "receipt",
+      "predicted": "receipt",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "No completed payment receipt is available."
+    },
+    {
+      "question": "invoice",
+      "expected": "receipt",
+      "predicted": "fallback",
+      "correct": false,
+      "score": 0.0,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "What is my register number?",
+      "expected": "profile",
+      "predicted": "profile",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "SYED SUFYAN M\nRegister number: 2403957610421048\nDepartment: CSE\nSemester: 7"
+    },
+    {
+      "question": "my department",
+      "expected": "profile",
+      "predicted": "profile",
+      "correct": true,
+      "score": 1.0,
+      "source": "Account records",
+      "answer": "SYED SUFYAN M\nRegister number: 2403957610421048\nDepartment: CSE\nSemester: 7"
+    },
+    {
+      "question": "student details",
+      "expected": "profile",
+      "predicted": "profile",
+      "correct": true,
+      "score": 0.4201,
+      "source": "Account records",
+      "answer": "SYED SUFYAN M\nRegister number: 2403957610421048\nDepartment: CSE\nSemester: 7"
+    },
+    {
+      "question": "name",
+      "expected": "profile",
+      "predicted": "fallback",
+      "correct": false,
+      "score": 0.0,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "hi",
+      "expected": "help",
+      "predicted": "help",
+      "correct": true,
+      "score": 1.0,
+      "source": "Assistant help",
+      "answer": "I can check your pending fees, due dates, payment history and receipts, or answer fee policy questions."
+    },
+    {
+      "question": "hello",
+      "expected": "help",
+      "predicted": "help",
+      "correct": true,
+      "score": 1.0,
+      "source": "Assistant help",
+      "answer": "I can check your pending fees, due dates, payment history and receipts, or answer fee policy questions."
+    },
+    {
+      "question": "help",
+      "expected": "help",
+      "predicted": "help",
+      "correct": true,
+      "score": 1.0,
+      "source": "Assistant help",
+      "answer": "I can check your pending fees, due dates, payment history and receipts, or answer fee policy questions."
+    },
+    {
+      "question": "How do refunds work?",
+      "expected": "policy",
+      "predicted": "policy",
+      "correct": true,
+      "score": 0.1614,
+      "source": "Policy: Refund requests",
+      "answer": "Refunds are not processed through this demonstration. Contact the college accounts office with your register number and payment receipt for an authorized decision. No refund eligibility is assumed."
+    },
+    {
+      "question": "Is there a late fine?",
+      "expected": "policy",
+      "predicted": "policy",
+      "correct": true,
+      "score": 0.2721,
+      "source": "Policy: Late payment and fines",
+      "answer": "The demonstration does not add automatic late fines. The due date indicates the last date recorded for each assigned fee. Any real college fine must be confirmed by the accounts office."
+    },
+    {
+      "question": "What if a payment failed?",
+      "expected": "policy",
+      "predicted": "policy",
+      "correct": true,
+      "score": 0.2515,
+      "source": "Policy: Failed or cancelled payments",
+      "answer": "Failed and cancelled simulated payments remain in Transaction history. They do not settle fees or generate payment receipts. You may retry an unpaid fee with a new attempt."
+    },
+    {
+      "question": "Can I receive a scholarship?",
+      "expected": "policy",
+      "predicted": "policy",
+      "correct": true,
+      "score": 0.3391,
+      "source": "Policy: Scholarship assistance",
+      "answer": "Scholarship eligibility and concessions must be verified by the college accounts office. The demonstration has no scholarship decision engine and does not automatically reduce assigned fees."
+    },
+    {
+      "question": "Are partial payments allowed?",
+      "expected": "policy",
+      "predicted": "policy",
+      "correct": true,
+      "score": 0.223,
+      "source": "Policy: Partial payments and installments",
+      "answer": "This demonstration accepts the full assigned amount of each selected fee. You can select individual fees, but cannot partially pay one fee. Installment permission must be confirmed with the accounts office."
+    },
+    {
+      "question": "Can I pay by UPI?",
+      "expected": "policy",
+      "predicted": "fallback",
+      "correct": false,
+      "score": 0.0988,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "quantum banana nebula",
+      "expected": "fallback",
+      "predicted": "fallback",
+      "correct": true,
+      "score": 0.0,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "weather forecast tomorrow",
+      "expected": "fallback",
+      "predicted": "fallback",
+      "correct": true,
+      "score": 0.0,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    },
+    {
+      "question": "write a poem about mountains",
+      "expected": "fallback",
+      "predicted": "fallback",
+      "correct": true,
+      "score": 0.0,
+      "source": "No matching record",
+      "answer": "I could not find a reliable answer. Ask about pending fees, due dates, payments or receipts, or contact the accounts office.\nFee support: necfeepay@nec.edu.in | Phone: 9442636022"
+    }
+  ]
+}

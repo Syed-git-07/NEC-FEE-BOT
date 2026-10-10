@@ -1,0 +1,6 @@
+﻿Fee ID,Register number,Fee head,Ledger,Academic year,Amount INR,Due date,Status
+2,2403957610421048,Examination,Academic,2026-2027,2500.00,2026-10-15,paid
+1,2403957610421048,Tuition,Academic,2026-2027,45000.00,2026-10-20,pending
+3,2403957610421048,Library,Academic,2026-2027,1500.00,2026-10-25,pending
+4,2403957610421048,Transport,Services,2026-2027,12000.00,2026-11-05,pending
+5,2403957610421048,Project laboratory,Academic,2026-2027,750.00,2026-11-15,pending

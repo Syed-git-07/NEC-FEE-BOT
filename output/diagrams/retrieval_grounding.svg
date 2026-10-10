@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="580" height="365" preserveAspectRatio="xMinYMin meet" viewBox="0 0 580 365" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="580" height="365"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-365)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 250,317.5 L 150,212.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="150 212.5, 155.6158 214.6124, 151.8361 218.2121" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 330,317.5 L 430,212.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="430 212.5, 428.1639 218.2121, 424.3842 214.6124" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 150,212.5 L 255,92.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="255 92.5, 253.4064 98.28449, 249.4782 94.84737" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 430,212.5 L 330,92.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="330 92.5, 335.4636 94.97971, 331.4538 98.3212" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="20" y="290" width="230" height="55" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="78.32499999999999" y="324.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,648) scale(1,-1)">Student policy question</text>
+			<text x="58.35149999999999" y="311.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,622) scale(1,-1)">Normalize + unigram / bigram features</text>
+			<rect x="330" y="290" width="230" height="55" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="393.045" y="324.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,648) scale(1,-1)">Current policy corpus</text>
+			<text x="373.5895" y="311.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,622) scale(1,-1)">Title + body / document frequencies</text>
+			<rect x="150" y="180" width="280" height="65" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="209.14999999999998" y="219.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,438) scale(1,-1)">Normalized TF-IDF cosine ranking</text>
+			<text x="229.97899999999998" y="206.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,412) scale(1,-1)">Score every maintained policy</text>
+			<rect x="25" y="55" width="230" height="75" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="96.365" y="105.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,211) scale(1,-1)">Score at least 0.16</text>
+			<text x="84.7265" y="92.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,185) scale(1,-1)">Return selected policy body</text>
+			<text x="86.2295" y="79.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,159) scale(1,-1)">Show named policy source</text>
+			<rect x="330" y="55" width="230" height="75" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="404.425" y="105.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,211) scale(1,-1)">Score below 0.16</text>
+			<text x="414.9895" y="92.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,185) scale(1,-1)">Return fallback</text>
+			<text x="379.471" y="79.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,159) scale(1,-1)">No unsupported financial answer</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="580" height="365" preserveAspectRatio="xMinYMin meet" viewBox="0 0 580 365" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="580" height="365"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-365)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 145,275 L 225,272.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="225 272.5, 219.6815 275.2773, 219.5184 270.0602" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<path d="M 145,95 L 225,92.5 Z" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1.1;"/>
+			<polygon points="225 92.5, 219.6815 95.27727, 219.5184 90.06023" style="stroke: rgb(46%,46%,46%); stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+			<rect x="15" y="240" width="130" height="70" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="61.39" y="281.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,563) scale(1,-1)">Student</text>
+			<text x="38.978" y="268.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,537) scale(1,-1)">Authenticated owner</text>
+			<rect x="15" y="60" width="130" height="70" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="47.22" y="101.5" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,203) scale(1,-1)">Administrator</text>
+			<text x="52.739000000000004" y="88.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,177) scale(1,-1)">Accounts role</text>
+			<rect x="225" y="220" width="335" height="105" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="346.94" y="292.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,584) scale(1,-1)">Student operations</text>
+			<text x="310.7125" y="279.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,558) scale(1,-1)">Overview / pending fees / demo payment</text>
+			<text x="334.9855" y="266.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,532) scale(1,-1)">History / PDF receipt / profile</text>
+			<text x="324.9685" y="253.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,506) scale(1,-1)">Fee assistant / grounded answers</text>
+			<rect x="225" y="40" width="335" height="105" rx="5" ry="5" style="stroke: rgb(8%,24%,44%); stroke-linecap: butt; stroke-width: 0.9; fill: rgb(95%,96%,97%); fill-rule: evenodd;"/>
+			<text x="332.77" y="112.0" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,224) scale(1,-1)">Administrator operations</text>
+			<text x="328.213" y="99.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,198) scale(1,-1)">Students / fee allocation / ledger</text>
+			<text x="339.9805" y="86.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,172) scale(1,-1)">Transactions / export CSV</text>
+			<text x="345.2275" y="73.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(6%,6%,6%); stroke:none;" transform="translate(0,146) scale(1,-1)">Policy editing / audit log</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Paraphrased task opens profile and retains assistant",
+    "Tuition selected without payment execution",
+    "Payment completed only through existing confirmation form",
+    "Agent finds owner-protected receipt; actual PDF download succeeds",
+    "Student admin-page request is denied",
+    "Mobile assistant fits a 390px viewport",
+    "Administrator gets fee-allotment navigation and workflow guidance"
+  ],
+  "browser_errors": []
+}

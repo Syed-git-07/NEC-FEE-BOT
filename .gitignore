@@ -1,0 +1,6 @@
+.venv/
+data/
+tmp/
+__pycache__/
+*.pyc
+output/screenshots/

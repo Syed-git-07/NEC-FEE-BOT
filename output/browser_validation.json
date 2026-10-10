@@ -1,0 +1,35 @@
+{
+  "screenshots": [
+    "01_login",
+    "02_student_dashboard",
+    "03_pending_fees",
+    "04_demo_payment",
+    "05_transaction_history",
+    "06_chatbot_balance",
+    "07_chatbot_policy",
+    "08_student_profile",
+    "09_mobile_profile",
+    "10_admin_dashboard",
+    "11_fee_allotment",
+    "12_student_directory",
+    "13_fee_ledger",
+    "14_policy_management",
+    "15_audit_log"
+  ],
+  "browser_errors": [],
+  "checks": [
+    "Student sign-in",
+    "Server-backed fee selection",
+    "Completed demo payment",
+    "Actual PDF receipt download",
+    "Live balance chatbot",
+    "Policy chatbot",
+    "390px mobile profile without overflow",
+    "Admin sign-in",
+    "Admin fee assignment visible to student",
+    "Ledger search",
+    "CSV download",
+    "Failed payment history",
+    "Session logout"
+  ]
+}
